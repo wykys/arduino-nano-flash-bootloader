@@ -3,7 +3,7 @@
 NAME = PRJ
 DEVICE=atmega328p
 CC=avr-gcc
-CFLAGS = -g -Wall -mcall-prologues -mmcu=$(DEVICE) -Os
+CFLAGS = -g -Wall -mcall-prologues -mmcu=$(DEVICE) -Os -std=c99
 
 
 OBJCOPY  = avr-objcopy
